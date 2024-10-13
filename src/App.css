@@ -1,0 +1,117 @@
+/* General styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f0f0;
+}
+
+.App {
+  display: flex;
+  width: 80%;
+  max-width: 1200px;
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+/* Left section */
+.Left {
+  flex: 1;
+  padding: 20px;
+  border-right: 1px solid #dee2e6;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.img-container {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.cat {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+/* Button container */
+.attributes-container {
+  margin-bottom: 20px;
+}
+
+.but-container {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.atr-button {
+  width: 150px;
+  height: 50px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+
+.atr-button:hover {
+  background-color: #0056b3;
+}
+
+/* Generate button */
+.generate-button-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.generate-button {
+  width: 150px;
+  height: 50px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+
+.generate-button:hover {
+  background-color: #218838;
+}
+
+/* Right section */
+.Right {
+  flex: 1;
+  padding: 20px;
+}
+
+.Right h2 {
+  margin-bottom: 10px;
+}
+
+.Right ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.Right li {
+  background-color: #f8f9fa;
+  margin-bottom: 5px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #dee2e6;
+}
+
+
